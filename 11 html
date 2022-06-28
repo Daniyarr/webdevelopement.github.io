@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color:azure;
+        }
+        h1{
+            background-color:purple;
+            color:azure;
+        }
+        table{
+            background-color:purple;
+            color:azure;
+        }
+        #recipe1{
+             background-color:purple;
+             color:azure;
+        }
+        h2{
+            background-color:purple;
+             color:azure;
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Daniyar's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#recipe1">Beshbarmak</a></li>
+        </ol>
+        
+        <h2 id="recipe1">Beshbarmak</h2>
+        
+        <ul>
+            <li>Time:2 hours</li>
+            <li>Serves: a large plate</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>flour</td>
+            <td>1 kg</td>
+            </tr>
+            <tr>
+                <td>meat</td>
+                <td>2 kg</td>
+            </tr>
+            <tr>
+                <td>potato</td>
+                <td>0.5 kg</td>
+            </tr>
+            <tr>
+                <td>onion</td>
+                <td>0.5 kg</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Flour .
+</p>
+        <li>We make dough from flour</li>
+        <li>Preparing a thin dough</li>
+         <p><strong>Step 2:</strong> Meat .
+</p>
+        <li>We prepare the meat for slicing</li>
+        <li>Making a cut</li>
+        <li>We put it in the cauldron</li>
+    <p><em>Source: <a href="https://www.russianfood.com/recipes/recipe.php?rid=121759">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
